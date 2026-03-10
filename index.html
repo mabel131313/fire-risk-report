@@ -1,27 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Fire Risk Monitoring System</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:40px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+}
+
+h1{
+text-align:center;
+color:#b22222;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+margin:15px 0;
+}
+
+a{
+text-decoration:none;
+font-size:20px;
+color:#0066cc;
+}
+
+a:hover{
+text-decoration:underline;
+}
+</style>
+
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>Fire Risk Monitoring System</h1>
 
-<h2>1. Meeting the Brief</h2>
-<p>This project monitors temperature, humidity and soil moisture to calculate fire risk.</p>
+<p>Select a section of the report:</p>
 
-<h2>2. Investigation</h2>
-<p>Research shows wildfire risk increases when temperatures are high and conditions are dry.</p>
+<ul>
+<li><a href="meeting.html">1. Meeting the Brief</a></li>
+<li><a href="investigation.html">2. Investigation</a></li>
+<li><a href="design.html">3. Design</a></li>
+<li><a href="implementation.html">4. Implementation</a></li>
+<li><a href="testing.html">5. Testing</a></li>
+</ul>
 
-<h2>3. Design</h2>
-<p>The system collects readings from sensors and stores them in a CSV file.</p>
-
-<h2>4. Implementation</h2>
-<p>The system was programmed in Python using a Raspberry Pi.</p>
-
-<h2>5. Testing</h2>
-<p>The system was tested using different environmental conditions.</p>
+</div>
 
 </body>
 </html>
